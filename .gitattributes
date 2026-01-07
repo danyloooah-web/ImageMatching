@@ -1,0 +1,46 @@
+# Git attributes for ImageMatching project
+
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Python files
+*.py text eol=lf
+*.pyi text eol=lf
+
+# Markdown files
+*.md text eol=lf
+
+# Batch files (Windows)
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+
+# Shell scripts (Unix)
+*.sh text eol=lf
+
+# Configuration files
+*.txt text eol=lf
+*.json text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+
+# Documentation
+LICENSE text eol=lf
+README* text eol=lf
+
+# Images (binary)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+
+# Model files (binary)
+*.h5 binary
+*.keras binary
+*.hdf5 binary
+
+# Archives (should not be in repo, but if present)
+*.zip binary
+*.tar.gz binary
+*.rar binary
+
